@@ -13,8 +13,12 @@
  *= require_tree .
  *= require_self
  */
+//Import Bootstrap
 @import 'bootstrap-sprockets';
 @import "bootstrap";
+//Import Font-Awesome
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
 
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
