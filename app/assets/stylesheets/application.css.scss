@@ -51,6 +51,21 @@ h1, h2, h3 {
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
 }
+
+//Mobile Navbar
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle{
+  border: 2px solid White;
+  &:hover, &:focus{
+    background-color: #00c6ff;
+  }
+}
+
+
+
 //Home Seite bearbeiten
 .home-callout{
   color: white;
